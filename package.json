@@ -1,6 +1,6 @@
 {
   "name": "styled-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tagged Template literal to transform CSS to inline styles",
   "main": "index.js",
   "repository": "https://github.com/MrLoh/styled-css",
