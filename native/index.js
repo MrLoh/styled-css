@@ -1,4 +1,4 @@
-import transform from 'css-to-react-native';
+const transform = require('css-to-react-native').default;
 
 const css = (strings, ...expressions) => (props) => {
   // evaluate expressions in template literal
@@ -23,4 +23,4 @@ const css = (strings, ...expressions) => (props) => {
   );
 };
 
-export default css;
+module.exports = css
