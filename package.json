@@ -7,10 +7,10 @@
   "license": "MIT",
   "private": false,
   "source": "src/index.js",
-  "main": "dist/index.cjs.js",
-  "react-native": "dist/index.native.cjs.js",
+  "main": "dist/index.js",
+  "react-native": "dist/index.native.js",
   "scripts": {
-    "bundle": "microbundle src/index.native.js -f cjs --target browser -o dist/index.native.cjs"
+    "bundle": "rm -rf ./dist && microbundle src/index.native.js -f cjs --target browser -o dist/index.native.js"
   },
   "dependencies": {
     "css-to-react-native": "^2.2.1"
