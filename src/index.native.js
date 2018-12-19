@@ -1,11 +1,10 @@
 const transform = require('css-to-react-native').default;
 
-const css = (strings, ...expressions) => (props) => {
+const css = (strings, ...expressions) => {
   // evaluate expressions in template literal
   const cssString = strings
     .map((str, i) => {
       let exp = expressions.length > i ? expressions[i] : '';
-      exp = typeof exp === 'function' ? exp(props) : exp;
       return str + exp;
     })
     .join('');

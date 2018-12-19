@@ -1,6 +1,6 @@
 {
   "name": "styled-css",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Tagged Template literal to transform CSS to inline styles",
   "repository": "https://github.com/MrLoh/styled-css",
   "author": "@MrLoh",
@@ -13,7 +13,7 @@
     "bundle": "rm -rf ./dist && microbundle src/index.native.js -f cjs --target browser -o dist/index.native.js"
   },
   "dependencies": {
-    "css-to-react-native": "^2.2.1"
+    "css-to-react-native": "^2.2.2"
   },
   "prettier": {
     "printWidth": 100,
@@ -25,7 +25,7 @@
     "tabWidth": 2
   },
   "devDependencies": {
-    "microbundle": "^0.6.0",
-    "prettier": "^1.14.2"
+    "microbundle": "^0.9.0",
+    "prettier": "^1.15.3"
   }
 }
